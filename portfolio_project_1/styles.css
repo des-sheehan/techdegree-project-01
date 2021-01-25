@@ -21,6 +21,13 @@ a:hover {
   color: #6633ff;
 }
 
+ul {
+    list-style-type: none;
+    clear: left;
+    padding: 0;
+}
+
+
 /* Section Styles */
 
 .main-nav {
@@ -43,7 +50,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: orange;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -52,7 +59,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: orange
 }
 
 header {
@@ -89,10 +96,10 @@ header .profile-image:hover {
   color: white;
 }
 .card {
-  margin: 30px;
+  margin: 40px;
   padding: 20px 40px 40px;
   max-width: 500px;
-  text-align: left;
+  text-align: center;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
@@ -166,7 +173,12 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
-
+.adobelist img {
+    width:100px;
+}
+.card img {
+    max-height: 250px;
+}
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
