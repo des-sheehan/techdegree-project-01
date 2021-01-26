@@ -20,17 +20,7 @@ a {
 a:hover {
   color: #6633ff;
 }
-
-ul {
-    list-style-type: none;
-    clear: left;
-    padding: 0;
-}
-
-
-/* Section Styles */
-
-.main-nav {
+nav {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -38,6 +28,31 @@ ul {
   position: fixed;
   text-align: center;
 }
+
+ul {
+    list-style-type: none;
+    clear: left;
+    padding: 0;
+}
+section {
+  margin: 40px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+section:hover {
+  border-color: orange;
+}
+
+section img {
+    max-height: 250px;
+}
+/* Section Styles */
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -46,7 +61,6 @@ ul {
   margin: 0 auto;
   padding: 0;
 }
-
 .nav .name {
     display: block;
     margin-right: auto;
@@ -94,19 +108,6 @@ header .profile-image:hover {
 .location {
   background-color: #222;
   color: white;
-}
-.card {
-  margin: 40px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
-  text-align: center;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
-  transition: all .5s;
-}
-.card:hover {
-  border-color: orange;
 }
 
 ul.skills {
@@ -176,9 +177,7 @@ a.social:hover {
 .adobelist img {
     width:100px;
 }
-.card img {
-    max-height: 250px;
-}
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
